@@ -1,2 +1,2 @@
 ### Data Structures
- Let's have fun :)
+ Let's have some fun :)
