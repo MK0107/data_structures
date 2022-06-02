@@ -82,10 +82,12 @@ class LinkedList {
 
   print() {
     let current = this.head;
+    let string = '';
     while (current) {
-      console.log(current.value);
+      string += current.value + ' ';
       current = current.next;
     }
+    console.log(string);
   }
 
   reverse() {
@@ -110,8 +112,8 @@ ll.print(); // 1 2 3
 
 console.log('------break------');
 
-ll.insert(2, 'inserted');
-ll.print(); // 1, 2, inserted, 3
+ll.insert(2, 'X');
+ll.print(); // 1, 2, X, 3
 
 console.log('------break------');
 
