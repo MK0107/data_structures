@@ -11,7 +11,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/hashTable/hashTable.js",
+      "program": "${workspaceFolder}/graph/graph.js",
       "outFiles": [
         "${workspaceFolder}/**/*.js"
       ]
